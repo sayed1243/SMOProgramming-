@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>صفحة باستخدام Bootstrap 5</title>
+
+    <!-- إضافة CSS من Bootstrap 5 -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <!--إضافة الخطوط-->
+    	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+ <!-- إضافة مكتبة Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet">
+    <!--css scroll-->
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+
+    
+    
+    
+    
+    
+    
+    
+<style>
+	*{
+	font-family: "Roboto Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+margin:0;
+
+
+
+
+}
+
+	</style>
+</head>
+<body>
+
+
+
+<nav class="navbar navbar-dark  fixed-top bg-primary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">SMO PROGRAMMING </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">SMO PROGRAMMING </h5>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="tex.html">Home</a>
+    
+          
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Courses
+            </a>
+            <ul class="dropdown-menu dropdown-menu-dark">
+              <li><a class="dropdown-item" href="#html">Html</a></li>
+              <li><a class="dropdown-item" href="#css">CSS</a></li>
+           <li><a class="dropdown-item" href="#JavaScript">JavaScript</a></li>
+           <li><a class="dropdown-item" href="#python">Python</a></li>
+              <li><a class="dropdown-item" href="#bootstrap4">Bootstrap 4</a></li>
+           <li><a class="dropdown-item" href="#bootstrap5">Bootstrap 5</a></li>
+            </ul>
+          </li>
+          
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              YouTube 
+            </a>
+            <ul class="dropdown-menu dropdown-menu-dark">
+              <li><a class="dropdown-item" href="#zero">Elzero Web school</a></li>
+              <li><a class="dropdown-item" href="#abd">Abdelrahman Gamal</a></li>
+           <li><a class="dropdown-item" href="#code">Codezilla</a></li>
+                <li><a class="dropdown-item" href="#md">محمد الدسوقى</a></li>
+              <li><a class="dropdown-item" href="#pa">Programming Advices</a></li>
+           <li><a class="dropdown-item" href="#oc">OctuCode</a></li>
+            </ul>
+          </li>
+          
+          <li class="nav-item">
+          <a class="nav-link" href="#about">About</a>
+        </li>
+        
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact</a>
+        </li>
+        
+        <li class="nav-item">
+          <a class="nav-link" href="#social">Social Media</a>
+        </li>
+          
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<div style="margin-top:80px" class="container">
+	
+	<div class="row">
+<div class="">
+<div  class="container mt-3">
+  <div  class="mt-4 p-5 bg-primary text-white rounded">
+    <h2>Hello, in SMO</h2> 
+    <p style="direction:rtl">   موقع SMO هو منصة تعليمية متخصصة في تقديم دورات لتعلم تطوير الواجهة الأمامية (Frontend) باستخدام لغات البرمجة HTML، CSS، وJavaScript. يقدم الموقع محتوى تعليمي مفصل ومجاني يتناسب مع جميع المستويات، من المبتدئين إلى المحترفين. يوفر الموقع دروسًا نظرية وعملية، مع تطبيقات واقعية ومشاريع تدريبية لتطوير مهارات المتعلمين. كما يتيح للمستخدمين الانضمام إلى مجتمع متفاعل للحصول على الدعم وتبادل الخبرات.</p> 
+  </div>
+</div>
+
+</div>
+<div class="col-4"></div>
+</div>
+	
+</div>
+
+
+
+
+
+
+<!---->
+
+<div class="container" id="courses">
+	<div class="text-center m-5">
+		<h3>Courses</h3>
+		<p style="direction:rtl">كورسات برمجة باللغة العربية </p>
+	</div>	
+	
+<div class="col-lg-4 col-md-6 p-1 col-12" id="html">
+    <div class="card" >
+             <img src="html.jpg" class="card-img-top" alt="...">
+       <div class="card-body">
+            <h5 class="card-title">Html</h5>
+            <p style="direction:rtl" class="card-text">لغة HTML (Hypertext Markup Language) هي لغة ترميز تستخدم لتطوير صفحات الويب. تعتمد على وسوم تحدد العناصر المختلفة مثل النصوص والصور والروابط.</p>
+           <a href="#" class="btn btn-primary">Log in</a>
+       </div>
+  </div>
+</div>
+
+<div class="col-lg-4 col-md-6 p-1 col-12" id="css">
+    <div class="card bg-primary" >
+             <img src="css.jpg" class="card-img-top" alt="...">
+       <div class="card-body text-light" >
+            <h5 class="card-title">CSS</h5>
+            <p style="direction:rtl" class="card-text">لغة CSS (Cascading Style Sheets) تُستخدم لتنسيق وتصميم صفحات الويب التي تم إنشاؤها باستخدام HTML. تُحدد CSS مظهر العناصر مثل الألوان والخطوط والمسافات، مما يجعل الصفحات أكثر جاذبية وتفاعلية.</p>
+           <a href="#" class="btn btn-light">Log in</a>
+       </div>
+  </div>
+</div>
+
+<div class="col-lg-4 col-md-6 p-1 col-12" id="JavaScript">
+    <div class="card" >
+             <img src="js.jpg" class="card-img-top" alt="...">
+       <div class="card-body">
+            <h5 class="card-title">JavaScript</h5>
+            <p style="direction:rtl" class="card-text">لغة JavaScript (JS) هي لغة برمجة تُستخدم لتطوير التفاعلية في صفحات الويب. تُمكّن من إنشاء ديناميكية مثل تحريك العناصر، التحقق من صحة البيانات، والاستجابة لتفاعلات المستخدم، مما يجعل المواقع أكثر تفاعلاً وحيوية.</p>
+           <a href="#" class="btn btn-primary">Log in</a>
+       </div>
+  </div>
+</div>
+
+<div class="col-lg-4 col-md-6 p-1 col-12" id="python">
+    <div class="card card bg-primary" >
+             <img src="python.jpg" class="card-img-top" alt="...">
+       <div class="card-body text-light">
+            <h5 class="card-title">Python</h5>
+            <p style="direction:rtl" class="card-text"> هي لغة برمجة عالية المستوى تُستخدم في تطوير الويب، علم البيانات، الذكاء الاصطناعي، والتطبيقات المختلفة. تتميز بكونها سهلة التعلم وقراءة الكود، مما يجعلها خيارًا شائعًا بين المبتدئين والمحترفين على حد سواء. Python تدعم مكتبات وإطارات عمل متعددة تسهل إنشاء البرامج والتطبيقات.</p>
+           <a href="#" class="btn btn-light">Log in</a>
+       </div>
+  </div>
+</div>
+
+<div class="col-lg-4 col-md-6 p-1 col-12" id="bootstrap4">
+    <div class="card" >
+             <img src="bootstrap 4.jpg" class="card-img-top" alt="...">
+       <div class="card-body">
+            <h5 class="card-title">Bootstrap 4 </h5>
+            <p style="direction:rtl" class="card-text"> هو إطار عمل مفتوح المصدر لتطوير واجهات المستخدم الأمامية (Front-End). يتيح تصميم مواقع ويب سريعة الاستجابة باستخدام مكونات جاهزة مثل الأزرار، النماذج، والقوائم. يتميز بسهولة الاستخدام والتخصيص، مما يساعد المطورين على بناء تصميمات متوافقة مع جميع الأجهزة بسرعة.</p>
+           <a href="#" class="btn btn-primary">Log in</a>
+       </div>
+  </div>
+</div>
+
+<div class="col-lg-4 col-md-6 p-1 col-12" id="bootstrap5">
+    <div class="card bg-primary" >
+             <img src="bootstrap 5.jpg" class="card-img-top" alt="...">
+       <div class="card-body text-light">
+            <h5 class="card-title">Bootstrap 5</h5>
+            <p style="direction:rtl" class="card-text"> هو الإصدار الأحدث من إطار العمل الشهير لتطوير واجهات المستخدم الأمامية. يتميز بتقديم تحسينات في الأداء والتصميم، مثل دعم أفضل لتصميم الويب التفاعلي، التخلي عن الاعتماد على jQuery، ودعم موسع لأدوات CSS الحديثة، مما يتيح تجربة تطوير أكثر كفاءة وسلاسة.</p>
+           <a href="#" class="btn btn-light">Log in</a>
+       </div>
+  </div>
+</div>
+ </div>
+
+	
+	
+	
+	
+	
+	
+
+<!---->
+
+<div class="container" >
+	<div class="text-center m-5">
+		<h3>YouTube</h3>
+		<p style="direction:rtl">مبدعين عرب فى البرمجة على YouTube</p>
+	</div>	
+	
+<div class="col-lg-4 col-md-6 p-1 col-12" id="abd">
+    <div class="card bg-primary text-light" >
+       <div class="card-body">
+            <h5 class="card-title">Abdelrahman Gamal</h5>
+            <p class="card-text"></p>
+           <a href="https://youtube.com/@abdelrahmangamal?si=_AhjzqExZUwbWTG6" class="btn btn-dark">Go</a>
+       </div>
+  </div>
+</div>
+
+<div class="col-lg-4 col-md-6 p-1 col-12" id="zero">
+    <div class="card bg-primary text-dark bg-light" >
+       <div class="card-body">
+            <h5 class="card-title">Elzero Web School</h5>
+            <p class="card-text"></p>
+           <a href="https://youtube.com/@elzerowebschool?si=hApFbCn2wQeejwxE" class="btn btn-dark">Go</a>
+       </div>
+  </div>
+</div>
+
+<div class="col-lg-4 col-md-6 p-1 col-12" id="code">
+    <div class="card bg-primary text-light" >
+       <div class="card-body">
+            <h5 class="card-title">Codezilla</h5>
+            <p class="card-text"></p>
+           <a href="https://youtube.com/@codezilla?si=XhH9hDyDxXxCWzrJ" class="btn btn-dark">Go</a>
+       </div>
+  </div>
+</div>
+
+<div class="col-lg-4 col-md-6 p-1 col-12" id="pa">
+    <div class="card bg-primary text-dark bg-light" >
+       <div class="card-body">
+            <h5 class="card-title">Programming Advices</h5>
+            <p class="card-text"></p>
+           <a href="https://youtube.com/@programmingadvices?si=R4sMi7hN58E0VmD5" class="btn btn-dark">Go</a>
+       </div>
+  </div>
+</div>
+
+<div class="col-lg-4 col-md-6 p-1 col-12" id="md"> 
+    <div class="card bg-primary text-light" >
+       <div class="card-body">
+            <h5 class="card-title">محمد الدسوقى</h5>
+            <p class="card-text"></p>
+           <a href="https://youtube.com/@desoukiegypt?si=pZajesqT3kAzMEjR" class="btn btn-dark">Go</a>
+       </div>
+  </div>
+</div>
+
+<div  class="col-lg-4 col-md-6 p-1 col-12" id="oc" data-aos="fade-left">
+    <div class="card bg-primary text-dark bg-light" >
+       <div class="card-body">
+            <h5 class="card-title">OctuCode</h5>
+            <p class="card-text"></p>
+           <a href="https://youtube.com/@octucode?si=9cMqwVtpWdHoQ7Sp" class="btn btn-dark">Go</a>
+       </div>
+  </div>
+</div>
+
+
+
+
+ </div>
+
+
+
+
+
+
+
+
+
+
+
+<!--slide-->
+	<div id="carouselExampleDark" class="carousel carousel-dark slide">
+		<div class="text-center m-5" id="about">
+		<h3>About</h3>
+		<p>معلومات عن منشىء الموقع </p>
+	</div>	
+	
+</div>
+  <div class="accordion accordion-flush" id="accordionFlushExample">
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed bg-primary text-light" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+        الإسم
+      </button>
+    </h2>
+    <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+      <div class="card">
+  <div class="card-body">
+    السيد محمد السيد محمد مصطفى القرينى 
+  </div>
+</div>
+    </div>
+  </div>
+  
+  
+  
+  
+  
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed bg-primary text-light" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+        العمر 
+      </button>
+    </h2>
+    <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+      <div class="card">
+  <div class="card-body">
+    16
+  </div>
+</div>
+    </div>
+  </div>
+  
+  
+  
+  
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed bg-primary text-light" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTo" aria-expanded="false" aria-controls="flush-collapsTo">
+        الهاتف
+      </button>
+    </h2>
+    <div id="flush-collapseTo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+      <div class="card">
+  <div class="card-body">
+    01550690757
+  </div>
+</div>
+    </div>
+  </div>
+  
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed bg-primary text-light" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+        الدولة 
+      </button>
+    </h2>
+    <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+      <div class="card">
+  <div class="card-body">
+    مصر
+  </div>
+</div>
+    </div>
+  </div>
+</div>
+
+
+
+
+<!--اتصل بنا -->
+	
+		<div class="text-center m-5" id="contact" >
+		<h3>Contact</h3>
+		<p>يمكنك التواصل فى أى وقت </p>
+	</div>	
+<form style="margin-left:8px;margin-right:8px;margin-bottom:10px">
+  <div class="mb-3">
+    <label for="exampleInputEmail1" class="form-label">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+  </div>
+  <div class="mb-3">
+    <label>Message</label>
+    <textarea class="form-control"></textarea>
+  </div>
+  <div class="mb-3 form-check">
+    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+    <label class="form-check-label" for="exampleCheck1">Check me out</label>
+  </div>
+ <div class="d-grid gap-2 d-md-block">
+  <button class="btn btn-outline-primary" type="button">Send</button>
+  </div>
+</form>
+
+
+
+
+
+
+<!--footer-->
+	<footer class="text-center bg-primary text-light" id="social">
+  <!-- Grid container -->
+  <div class="container p-4 pb-0">
+    <!-- Section: Social media -->
+    <section class="mb-4">
+      <!-- Facebook -->
+      <a
+      data-mdb-ripple-init
+        class="btn text-white btn-floating m-1"
+        style="background-color: #3b5998;"
+        href="https://www.facebook.com/profile.php?id=100085059527817&mibextid=ZbWKwL"
+        role="button"
+        ><i class="fab fa-facebook-f"></i
+      ></a>
+
+      <!-- YouTube-->
+      <a
+        data-mdb-ripple-init
+        class="btn text-white btn-floating m-1"
+        style="background-color: #55acee;"
+        href="https://www.youtube.com/@user-pj5gd9cv7u"
+        role="button"
+        ><i class="fab fa-youtube"></i
+      ></a>
+
+      <!-- TikTok -->
+      <a
+        data-mdb-ripple-init
+        class="btn text-white btn-floating m-1"
+        style="background-color: #000;"
+        href="https://www.tiktok.com/@ahmedmo3223?_t=8pRqpS6TIT2&_r=1"
+        role="button"
+        ><i class="fab fa-tiktok"></i
+      ></a>
+
+      <!-- Instagram -->
+      <a
+        data-mdb-ripple-init
+        class="btn text-white btn-floating m-1"
+        style="background-color: #ac2bac;"
+        href="https://www.instagram.com/sayedmo511?igsh=Znd1N25yY3J1cm1q"
+        role="button"
+        ><i class="fab fa-instagram"></i
+      ></a>
+
+      <!-- Linkedin -->
+      <a
+        data-mdb-ripple-init
+        class="btn text-white btn-floating m-1"
+        style="background-color: #0082ca;"
+        href="https://www.linkedin.com/in/sayed-mo-21679231a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+        role="button"
+        ><i class="fab fa-linkedin-in"></i
+      ></a>
+      <!-- Github -->
+      <a
+        data-mdb-ripple-init
+        class="btn text-white btn-floating m-1"
+        style="background-color: #333333;"
+        href="#!"
+        role="button"
+        ><i class="fab fa-github"></i
+      ></a>
+    </section>
+    <!-- Section: Social media -->
+  </div>
+  <!-- Grid container -->
+
+  <!-- Copyright -->
+  <div  class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.05);" >
+    © 2024 SMO:
+    <a class="text-body" href="mailto:sayedmo443@gmail.com">sayedmo443@gmail.com</a>
+  </div>
+  <!-- Copyright -->
+</footer>
+
+
+
+
+
+
+
+    <!-- إضافة JavaScript من Bootstrap 5 -->
+    	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
